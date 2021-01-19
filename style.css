@@ -10,7 +10,7 @@
 
 body {
     background: #f0f2f5;
-    font-family: 'inconsolata', monospace
+    font-family: 'Raleway', sans-serif;
 }
 
 .container {
@@ -22,12 +22,12 @@ body {
 h2 {
     margin-top: 3.2rem;
     margin-bottom: 0.8rem;
-    color: var(--dark-green);
+    color: black;
 }
 /* HEADER ----------------------*/
 header {
-    background: #1e72e0;
-    padding: 2rem 0 10rem;
+    background: #4d84cc;
+    padding: 2rem 0 12rem;
     text-align: center;
     font-weight: normal;
 }
@@ -67,8 +67,12 @@ header {
     margin-top: 1rem;
 }
 
+.card.saidas {
+    color:  #e92929;
+}
+
 .card.total {
-    background: #80ccf8;
+    background: #062e91;
     color: white;
 }
 
@@ -76,7 +80,7 @@ header {
 #data-table {
     width: 100%;
     border-spacing: 0 0.5rem;
-    color: #8dbb9a;
+    color: black;
     }
 
 table thead tr th:first-child,
@@ -124,6 +128,6 @@ td.expanse {
 footer {
     text-align: center;
     padding: 4rem 0 2rem;
-    color: var(--dark-green);
+    color: black;
     opacity: 0.6;
 }
